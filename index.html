@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rayal Park Hotel</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="Home">
+        <nav>
+            <div class="navbar">
+                <div class="nav-logo">
+                    <img src="assets/logo.png" alt=>
+                </div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#Home">Home</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#About">About</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Service">Service</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Explore">Explore</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Contact">Contact</a>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn nav-btn">Book Now</button>
+                <div class="hamburger" >
+                        <i class="fa fa-bars" aria-hidden="true" onclick="go()"></i>
+                </div>
+            </div>
+            <div id="second-nav">
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="#Home">Home</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#About">About</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Service">Service</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Explore">Explore</a>
+                            <span></span>
+                        </li>
+                        <li><a href="#Contact">Contact</a>
+                            <span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header-text">
+            <h4>Simple - Unique - Friendly</h4>
+            <h1>Make Yourself At Home
+                <br>
+                In Our Hotel.
+            </h1>
+        </div>
+
+    </header>
+    <main id="main">
+        <div class="check">
+            <div class="check-text chk-txt">
+                <div class="first-check fc">
+                    <div class="check-icon">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p class="check-para">CHECK-IN</p>
+                        <input type="text" placeholder="Check In">
+                    </div>
+                </div>
+                <div class="first-check fc">
+                    <div class="check-icon">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <p class="check-para">CHECK-OUT</p>
+                        <input type="text" placeholder="Check Out">
+                    </div>
+                </div>
+                <div class="first-check fc">
+                    <div class="check-icon">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div>
+                        <p class="check-para">GUEST</p>
+                        <input type="text" placeholder="Guest">
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="btn chk-btn">CHECK-OUT</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="About">
+            <div class="about">
+                <div class="about-img">
+                    <img src="assets/about.jpg" alt="">
+                </div>
+                <div class="about-text">
+                    <p class="sec-heading about-heading grey">ABOUT US <span class="line-span"></span></p>
+                    <h1 class="sec-h1">The Best Holidays Start Here!</h1>
+                    <p class="about-para grey">With a focus on quality accommodations, personalized experiences, and
+                        seamless
+                        booking, our platform is dedicated to ensuring that every traveler embarks on their dream
+                        holiday with confidence and excitement.</p>
+                    <button class="btn about-btn">Read More</button>
+                </div>
+            </div>
+        </section>
+        <section id="room">
+            <div class="room-heading">
+                <p class="sec-heading grey ">OUR LIVING ROOM <span class="line-span"></span></p>
+                <h1 class="sec-h1">The Most Memorable Rest Time <br> Starts Here.</h1>
+            </div>
+
+            <div class="room-cards">
+                <div class="card">
+                    <div class="room-img">
+                        <img src="assets/room-1.jpg" alt="">
+                    </div>
+                    <div class="room-text">
+                        <h3>Deluxe Ocean View</h3>
+                        <p class="grey">Bask in luxury with breathtaking ocean views from your private suite.</p>
+                        <p class="grey">Starting from <b style="color: black;"> $299/night</b></p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="room-img">
+                        <img src="assets/room-2.jpg" alt="">
+                    </div>
+                    <div class="room-text">
+                        <h3>Executive Cityscape Room</h3>
+                        <p class="grey">Experience urban elegance and modern comfort in the heart of the city.</p>
+                        <p class="grey">Starting from <b style="color: black;"> $199/night</b></p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="room-img">
+                        <img src="assets/room-3.jpg" alt="">
+                    </div>
+                    <div class="room-text">
+                        <h3>Family Garden Retreat</h3>
+                        <p class="grey">Spacious and inviting, perfect for creating cherished memories with loved ones.
+                        </p>
+                        <p class="grey">Starting from <b style="color: black;"> $299/night</b></p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main>
+        <section id="Service">
+            <div class="service-container">
+                <div class="service-list">
+                    <div class="list-container">
+                        <p class="sec-heading grey">SERVICES<span class="line-span"></span></p>
+                        <h1 class="sec-h1">Strive Only For The Best.</h1>
+                        <div class="list-s">
+                            <ul>
+                                <div class="ul-list">
+                                    <i class="fa fa-shield" aria-hidden="true"></i>
+                                    <li>High Class Security</li>
+                                </div>
+                                <div class="ul-list">
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    <li>24 Hours Room Service</li>
+                                </div>
+                                <div class="ul-list">
+                                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                                    <li>Confrence Room</li>
+                                </div>
+                                <div class="ul-list">
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <li>Tourist Guide Support</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="banner">
+                <div class=" banner-container">
+                    <div class="first-check">
+                        <h2>25+</h2>
+                        <p class="grey">Properties Available</p>
+                    </div>
+                    <div class="first-check">
+                        <h2>350+</h2>
+                        <p class="grey">Bookings Completed</p>
+                    </div>
+                    <div class="first-check third-check">
+                        <h2>600+</h2>
+                        <p class="grey">Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Explore">
+            <div class="room-heading" style="text-align: center;">
+                <p class="sec-heading grey "
+                    style="border-bottom: 4px solid red; width: 150px; margin: auto; margin-bottom: 8px; padding: 5px;">
+                    Explore Now</p>
+                <h1 class="sec-h1">What's New Today.</h1>
+            </div>
+            <div class="explore-img">
+                <div class="explore-text">
+                    <p class="grey">10th MAR 2023</p>
+                    <h3>A New Menu Is Available In Our Hotel.</h3>
+                    <button class="btn ex-btn">Continue</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="Contact">
+        <div class="footer-container">
+            <div class="footer-item">
+                <div class="foot-img">
+                    <img src="assets/logo.png" alt="">
+                </div>
+                <div class="foot-para">
+                    <p class="grey">Discover a world of comfort, luxury, and adventure as you explore our curated
+                        selection of hotels, making every moment of your getaway truly extraordinary.</p>
+                </div>
+                <div class="foot-btn" style="margin-top: 20px;">
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <div class="foot-para grey">
+                    <p>Browse Destinations</p>
+                    <p>Special Offers & Packages</p>
+                    <p>Room Types & Amenities</p>
+                    <p>Customer Reviews & Ratings</p>
+                    <p>Travel Tips & Guides</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>OUR SERVICES</h3>
+                <div class="foot-para grey">
+                    <p>Concierge Assistance</p>
+                    <p>Flexible Booking Options</p>
+                    <p>Airport Transfers</p>
+                    <p>Wellness & Recreation</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>CONTACT US</h3>
+                <div class="foot-para grey">
+                    <p>rayalpark@info.com</p>
+                </div>
+                <div class="social-img">
+                    <img src="assets/facebook.png" alt="">
+                    <img src="assets/instagram.png" alt="">
+                    <img src="assets/youtube.png" alt="">
+                    <img src="assets/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="foot-text">
+            <p class="grey">Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+        </div>
+
+        <a href="#Home"><i href="#Home" class="fa fa-arrow-up top"></i></a>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
